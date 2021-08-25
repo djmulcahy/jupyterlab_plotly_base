@@ -130,3 +130,6 @@ dmypy.json
 
 # not add ipython checkpoints
 */.ipynb_checkpoints/*
+
+# ignore any left over temp files
+*/tmp/*

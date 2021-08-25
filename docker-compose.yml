@@ -2,7 +2,8 @@ services:
   jupyter:
     build: .
     ports:
-      - "8888:8888"
+      - "${Jupyter_Port}:${Jupyter_Port}"
     volumes:
       - "./notebooks/:/home/jovyan/notebooks/"
       - "./data/:/home/jovyan/data/"
+    entrypoint: jupyter lab -p=${Jupyter_Port}

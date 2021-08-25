@@ -2,7 +2,7 @@ services:
   jupyter:
     build: .
     ports:
-      - "8889:8888"
+      - "8888:8888"
     volumes:
       - "./notebooks/:/users/jovyan/notebooks/"
       - "./data/:/users/jovyan/data/"

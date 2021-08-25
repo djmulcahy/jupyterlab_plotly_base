@@ -27,4 +27,6 @@ USER $NB_UID
 RUN mkdir -p ~/data
 RUN mkdir -p ~/notebooks
 
+# Set dark theme in jupyter lab 
+Run sed -i 's/JupyterLab Light/JupyterLab Dark/' /opt/conda/share/jupyter/lab/schemas/@jupyterlab/apputils-extension/themes.json
 ENTRYPOINT jupyter lab

@@ -1,4 +1,4 @@
-# Docker Image for data analysis   
+# Docker Image for Data Analysis with Plotly
 Simple template docker image to use Jupyterlab with plotly for data analysis
 
 ## Requirements

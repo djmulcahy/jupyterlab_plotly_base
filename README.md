@@ -32,5 +32,5 @@ Simple template docker image to use Jupyterlab with plotly for data analysis
 
 - [x] include scripts to run based on local env
 - [ ] write start up as Make file so it works by default on more systems
-- [ ] add dark theme to docker file
-- [ ] add vim mode by default
+- [x] add dark theme to docker file
+- [x] add vim mode by default

@@ -6,4 +6,4 @@ services:
     volumes:
       - "./notebooks/:/home/jovyan/notebooks/"
       - "./data/:/home/jovyan/data/"
-    entrypoint: jupyter lab -p=${Jupyter_Port}
+    entrypoint: "jupyter lab -p=${Jupyter_Port}"

@@ -20,7 +20,7 @@ Simple template docker image to use Jupyterlab with plotly for data analysis
 |`notebooks/Analysis_Template.ipynb`| the start of a notebooks for data exploration |
 |`docker-compose.yml` | docker-compose file to use to deploy jupyter lab |
 |`Dockerfile`| the docker file that defines the image. Must be rebuilt if changed |
-|`start_docker_compose.ps1| Using powershell, deploys docker-compose while finding an available port that is unused |
+|`start_docker_compose.ps1`	| Using powershell, deploys docker-compose while finding an available port that is unused |
 |`.env` | default env variables for `docker-compose.yml` |
 |`data/tmp.txt` | file only to save that directory in git repo |
 |`data/` | location to put data whish is shared with container |
